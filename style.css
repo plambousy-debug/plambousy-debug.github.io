@@ -114,7 +114,7 @@ h2 {
   transform: scale(2);
   filter: grayscale(10%);
   transform: translateY(-4px);
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.18);
+  box-shadow: 0 16px 40px rgba(3, 3, 3, 0.18);
 }
 nav {
   display: flex;
@@ -133,7 +133,7 @@ nav h1 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  color: #000;
+  color: #000000;
 }
 
 #nav-ul {
@@ -157,7 +157,7 @@ nav h1 {
 }
 
 .nav-li a:hover {
-  background: #000;
+  background: #020202;
   color: #fff;
 }
 /* Portfolio styles */
@@ -185,7 +185,7 @@ nav h1 {
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
-  color: #000000;
+  color: #030303;
   padding: 16px 20px;
   font-size: 1.1rem;
   font-weight: 500;
@@ -211,4 +211,7 @@ nav h1 {
 
 #portfolio a:hover::after {
   opacity: 1;
+}
+#color {
+  color: yellow
 }
